@@ -1,0 +1,160 @@
+body {
+  background: rgb(0, 174, 255);
+}
+.container {
+  background: rgb(58, 8, 58);
+  padding: 15px;
+  color: white;
+  width: 50%;
+  position: absolute;
+  color: antiquewhite;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon {
+  width: 30px;
+  justify-content: center;
+  /* margin-left: 50px; */
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.sign-in-div {
+  width: 11%;
+  margin: 0 auto;
+  position: relative;
+  top: -21px;
+  justify-content: center;
+  background-color: rgb(58, 8, 58);
+  font-size: x-large;
+  font-style: oblique;
+}
+
+.form-div {
+  width: 100%;
+  position: relative;
+}
+
+.form input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: lavender;
+}
+
+.form-div-signup input {
+  width: 36%;
+}
+
+.btn-1,
+.btn-2 {
+  padding: 8px;
+  width: 84.5%;
+  background-color: greenyellow;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+
+.btn-2 {
+  margin-bottom: 35px;
+}
+
+.checkbox {
+  width: 100%;
+  margin: 10px 0 35px 0;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+  font-weight: bold;
+}
+
+a:hover {
+  color: blue;
+}
+
+.btn-1:hover,
+.btn-2:hover {
+  background-color: blue;
+}
+
+.checkbox a {
+  float: right;
+}
+
+.create-account-div a {
+  float: right;
+}
+
+/* ENTRIES */
+.entry-container {
+  background: gainsboro;
+  padding: 15px;
+  color: white;
+  width: 30%;
+  height: 80vh;
+  position: absolute;
+  color: antiquewhite;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-content: center;
+}
+
+.entry-container h3 {
+  padding: 15px;
+  width: 70%;
+  background-color: green;
+  color: whitesmoke;
+  text-align: center;
+  margin-left: 40px;
+  /* justify-content: center; */
+}
+
+.entry-container h4 {
+  padding: 5px;
+  width: 65%;
+  background-color: black;
+  bottom: 10px;
+  color: whitesmoke;
+  text-align: center;
+  margin-left: 60px;
+  top: 20px;
+}
+
+.entry-group input {
+  width: 65%;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: lavender;
+  margin-left: 45px;
+}
+
+.btn-3 {
+  padding: 5px;
+  border-radius: 20px;
+  width: 40%;
+  margin-left: 110px;
+  font-weight: bold;
+}
+
+.btn-3:hover {
+  background-color: blue;
+}
+
+.entry-container h6 {
+  padding: 5px;
+  width: 65%;
+  background-color: black;
+  bottom: 10px;
+  color: whitesmoke;
+  text-align: center;
+  margin-left: 60px;
+  font-weight: bolder;
+}

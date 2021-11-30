@@ -1,0 +1,255 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 2;
+  padding: 0;
+  margin: 0;
+  background-color: darkslategray;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.header-1 a:hover,
+.header-2 a:hover {
+  color: blue;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header .header-2 a,
+.header-2-dashboard a {
+  color: black;
+}
+
+.header-1 {
+  display: flex;
+  background-color: darkslategray;
+}
+
+.diary-logo img {
+  width: 80px;
+  height: 80px;
+  /* line-height: 30px; */
+  align-content: center;
+  justify-content: center;
+  margin: 10px 0 0 5px;
+}
+.diary-logo {
+  background: linear-gradient(to left top, darkslategray);
+  background: linear-gradient(to right bottom, darkslategray);
+  opacity: 6;
+}
+
+.diary-label {
+  float: left;
+  margin-left: 5px;
+  color: whitesmoke;
+  font-size: x-large;
+}
+
+.header-1 li {
+  display: inline;
+  padding: 0 20px 0 20px;
+  float: right;
+  margin-top: 20px;
+}
+
+.header-1 ul {
+  float: right;
+  position: absolute;
+  right: 80px;
+  display: inline;
+}
+
+.header-2,
+.header-2-dashboard {
+  display: flex;
+  background-color: gainsboro;
+  /* border-bottom: white 3px solid; */
+}
+
+.header-2 li {
+  display: inline;
+  padding: 0 20px 0 20px;
+  float: right;
+}
+
+.header-2-dashboard li {
+  display: inline;
+  padding: 0 50px 0 50px;
+  float: right;
+}
+
+a:hover {
+  color: blue;
+}
+
+.header-2 ul,
+.header-2-dashboard ul {
+  margin: auto;
+  padding: 12px;
+}
+
+.section {
+  background-color: rgb(0, 174, 255);
+  display: flex;
+  padding: 32px;
+  color: whitesmoke;
+  margin: auto;
+  overflow: hidden;
+}
+
+.article {
+  float: left;
+  margin-left: 5px;
+}
+
+.side-bar {
+  float: right;
+  width: auto;
+  margin: 15px 8px 20px;
+}
+
+.side-bar img {
+  width: 450px;
+}
+
+.article h1 {
+  text-transform: capitalize;
+}
+
+.article p {
+  justify-content: center;
+}
+
+.footer-group {
+  background-color: gainsboro;
+  display: flex;
+  gap: 400px;
+  margin: 0 35px 0 35px;
+  padding: 10px;
+  position: relative;
+  bottom: 30px;
+}
+
+.footer-left {
+  float: left;
+  margin-left: 25px;
+}
+
+.footer-right {
+  float: right;
+  margin: 10px 25px;
+  max-lines: 2;
+}
+
+.footer-middle p {
+  /* text-align: none; */
+}
+
+.profession {
+  color: rgb(0, 174, 255);
+}
+
+.footer-right a {
+  background-color: rgb(0, 174, 255);
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 5px 8px 5px 8px;
+  border-radius: 0 7px 0 7px;
+}
+
+.footer-last h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: wavy;
+  color: whitesmoke;
+  text-transform: capitalize;
+}
+
+/* Dashboard */
+.parent-box {
+  display: flex;
+  /* background-color: rgba(255, 255, 255, 0.022); */
+  padding: 10px;
+  position: static;
+  color: green;
+  margin: auto;
+  overflow: hidden;
+  width: 80%;
+  height: 200vh;
+  /* gap: 10px; */
+  justify-content: center;
+}
+
+.left-box {
+  float: left;
+  position: relative;
+  background-color: whitesmoke;
+  width: 20%;
+  border-radius: 10px;
+  align-content: center;
+  justify-content: center;
+  justify-self: center;
+}
+
+.right-box {
+  float: right;
+  position: relative;
+  background-color: ghostwhite;
+  width: 60%;
+  border-radius: 10px;
+}
+
+.dashboard {
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  position: fixed;
+  justify-content: center;
+  justify-items: center;
+  /* margin-left: 60px; */
+  width: 15%;
+  margin: auto;
+}
+
+.dashboard .image {
+  /* width: 7%; */
+  align-content: center;
+  justify-content: center;
+  margin-top: 50px;
+  /* border-radius: 100%; */
+}
+
+.dashboard .image .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+
+.dashboard p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.dashboard a:hover {
+  color: blue;
+}
+
+.dashboard h4 {
+  /* margin-top: 65px; */
+}
+
+.display h2 {
+  color: blue;
+  text-align: center;
+  margin: 55px 40px 0 0;
+}

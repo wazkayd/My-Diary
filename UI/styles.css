@@ -1,0 +1,480 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 2;
+  padding: 0;
+  margin: 0;
+  background-color: darkslategray;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.header-1 a:hover,
+.header-2 a:hover {
+  color: blue;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header .header-2 a,
+.header-2-dashboard a {
+  color: black;
+}
+
+.header-1 {
+  display: flex;
+  background-color: darkslategray;
+}
+
+.diary-logo img {
+  width: 80px;
+  height: 80px;
+  /* line-height: 30px; */
+  align-content: center;
+  justify-content: center;
+  margin: 10px 0 0 5px;
+}
+.diary-logo {
+  background: linear-gradient(to left top, darkslategray);
+  background: linear-gradient(to right bottom, darkslategray);
+  opacity: 6;
+}
+
+.diary-label {
+  float: left;
+  margin-left: 5px;
+  color: whitesmoke;
+  font-size: x-large;
+}
+
+.header-1 li {
+  display: inline;
+  padding: 0 20px 0 20px;
+  float: right;
+  margin-top: 20px;
+}
+
+.header-1 ul {
+  float: right;
+  position: absolute;
+  right: 80px;
+  display: inline;
+}
+
+.header-2,
+.header-2-dashboard {
+  display: flex;
+  background-color: gainsboro;
+  /* border-bottom: white 3px solid; */
+}
+
+.header-2 li {
+  display: inline;
+  padding: 0 20px 0 20px;
+  float: right;
+}
+
+.header-2-dashboard li {
+  display: inline;
+  padding: 0 50px 0 50px;
+  float: right;
+}
+
+a:hover {
+  color: blue;
+}
+
+.header-2 ul,
+.header-2-dashboard ul {
+  margin: auto;
+  padding: 12px;
+}
+
+.section {
+  background-color: rgb(0, 174, 255);
+  display: flex;
+  padding: 32px;
+  color: whitesmoke;
+  margin: auto;
+  overflow: hidden;
+}
+
+.article {
+  float: left;
+  margin-left: 5px;
+}
+
+.side-bar {
+  float: right;
+  width: auto;
+  margin: 15px 8px 20px;
+}
+
+.side-bar img {
+  width: 450px;
+}
+
+.article h1 {
+  text-transform: capitalize;
+}
+
+.article p {
+  justify-content: center;
+}
+
+.footer-group {
+  background-color: gainsboro;
+  display: flex;
+  gap: 400px;
+  margin: 0 35px 0 35px;
+  padding: 10px;
+  position: relative;
+  bottom: 30px;
+}
+
+.footer-left {
+  float: left;
+  margin-left: 25px;
+}
+
+.footer-right {
+  float: right;
+  margin: 10px 25px;
+  max-lines: 2;
+}
+
+.footer-middle p {
+  /* text-align: none; */
+}
+
+.profession {
+  color: rgb(0, 174, 255);
+}
+
+.footer-right a {
+  background-color: rgb(0, 174, 255);
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 5px 8px 5px 8px;
+  border-radius: 0 7px 0 7px;
+}
+
+.footer-last h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: wavy;
+  color: whitesmoke;
+  text-transform: capitalize;
+}
+
+/* DASHBOARD */
+.parent-box {
+  display: flex;
+  /* background-color: rgba(255, 255, 255, 0.022); */
+  padding: 10px;
+  position: static;
+  color: green;
+  margin: auto;
+  overflow: hidden;
+  width: 80%;
+  height: 200vh;
+  /* gap: 10px; */
+  justify-content: center;
+}
+
+.left-box {
+  float: left;
+  position: relative;
+  background-color: whitesmoke;
+  width: 20%;
+  border-radius: 10px;
+  align-content: center;
+  justify-content: center;
+  justify-self: center;
+}
+
+.right-box {
+  float: right;
+  position: relative;
+  background-color: ghostwhite;
+  width: 60%;
+  border-radius: 10px;
+}
+
+.dashboard {
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  position: fixed;
+  justify-content: center;
+  justify-items: center;
+  /* margin-left: 60px; */
+  width: 15%;
+  margin: auto;
+}
+
+.dashboard .image {
+  align-content: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.dashboard .image .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+
+.dashboard p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.dashboard a:hover {
+  color: blue;
+}
+
+.display-dashboard {
+  margin: 20px;
+}
+
+/* FORMS */
+body {
+  background: rgb(0, 174, 255);
+}
+.container {
+  background: rgb(58, 8, 58);
+  padding: 15px;
+  color: white;
+  width: 50%;
+  position: absolute;
+  color: antiquewhite;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon {
+  width: 30px;
+  justify-content: center;
+  /* margin-left: 50px; */
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.sign-in-div {
+  width: 11%;
+  margin: 0 auto;
+  position: relative;
+  top: -21px;
+  justify-content: center;
+  background-color: rgb(58, 8, 58);
+  font-size: x-large;
+  font-style: oblique;
+}
+
+.form-div {
+  width: 100%;
+  position: relative;
+}
+
+.form input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: lavender;
+}
+
+.form-div-signup input {
+  width: 36%;
+}
+
+.btn-1,
+.btn-2 {
+  padding: 8px;
+  width: 84.5%;
+  background-color: blanchedalmond;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+
+.btn-2 {
+  margin-bottom: 35px;
+}
+
+.checkbox {
+  width: 100%;
+  margin: 10px 0 35px 0;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+  font-weight: bold;
+}
+
+a:hover {
+  color: blue;
+}
+
+.btn-1:hover,
+.btn-2:hover {
+  background-color: blue;
+}
+
+.checkbox a {
+  float: right;
+}
+
+.create-account-div a {
+  float: right;
+}
+
+/* ADD ENTRY */
+.entry-container {
+  background: gainsboro;
+  padding: 40px;
+  color: white;
+  width: 70%;
+  height: 90vh;
+  position: absolute;
+  color: antiquewhite;
+  top: 28.5%;
+  left: 35%;
+  transform: translate(-35%, -35%);
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.entry-container h3 {
+  padding: 15px;
+  width: 70%;
+  background-color: green;
+  color: whitesmoke;
+  text-align: center;
+  margin-left: 40px;
+  /* justify-content: center; */
+}
+
+.entry-container h4 {
+  padding: 5px;
+  width: 65%;
+  background-color: black;
+  bottom: 10px;
+  color: whitesmoke;
+  text-align: center;
+  margin-left: 60px;
+  top: 20px;
+}
+
+.entry-group input {
+  width: 65%;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: lavender;
+  margin-left: 45px;
+}
+
+.btn-3 {
+  padding: 5px;
+  border-radius: 20px;
+  width: 40%;
+  margin-left: 110px;
+  font-weight: bold;
+}
+
+.btn-3:hover {
+  background-color: blue;
+}
+
+.entry-container h6 {
+  padding: 5px;
+  width: 65%;
+  background-color: black;
+  bottom: 10px;
+  color: whitesmoke;
+  text-align: center;
+  margin-left: 60px;
+  font-weight: bolder;
+}
+
+/* ENTRIES */
+.entries {
+  margin: 20px;
+}
+
+kiss {
+  color: black;
+  margin: 0 10px;
+}
+
+.update-entry {
+  margin: 20px;
+}
+
+.calender {
+  color: red;
+}
+
+.entries p {
+  color: grey;
+}
+
+.display h2 {
+  color: goldenrod;
+  text-align: center;
+  margin: 55px 40px 0 0;
+  background-color: darkslategrey;
+  border-radius: 20px;
+}
+
+/* ENTRY */
+
+.update-entry {
+  margin: 30px;
+}
+
+.date-and-time {
+  margin: 20px 0;
+}
+
+.update-entry p {
+  color: grey;
+}
+
+.update {
+  background: rgb(28, 207, 28);
+  margin-left: 30px;
+  margin-right: 10px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 5px 7px;
+}
+
+.delete {
+  background: rgb(248, 27, 27);
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 5px 7px;
+}
+
+/* PROFILE */
+.profile p {
+  margin-left: 20px;
+}
+
+/* STATUS */
+.status p {
+  margin-left: 20px;
+}
